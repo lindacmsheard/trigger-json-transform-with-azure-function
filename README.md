@@ -155,7 +155,7 @@ Pre-requisites:
 
     In the Azure Portal, navigate to the `Live metrics` view on the `Monitor` tab of the function to review the execution. 
 
-    In this simple conumption plan implementation, the 1000 documents took ~45 seconds to be processed. 
+    In this simple consumption plan implementation, the 1000 documents took ~45 seconds to be processed. 
 
     ![metrics](./live_metrics_1000.png)
 
