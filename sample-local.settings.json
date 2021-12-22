@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "<utility storage account connection string>",
+    "LANDING_ZONE": "<data storage account connection string"
+  }
+}

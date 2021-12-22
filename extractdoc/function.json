@@ -1,0 +1,26 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "changefeedtest/in/{filename}.json",
+      "connection": "LANDING_ZONE"
+    },
+    {
+      "name": "collection1",
+      "type": "blob",
+      "direction": "out",
+      "path": "changefeedtest/out/collection1/{filename}.json",
+      "connection": "LANDING_ZONE"
+    },
+    {
+      "name": "collection2",
+      "type": "blob",
+      "direction": "out",
+      "path": "changefeedtest/out/collection2/{filename}.json",
+      "connection": "LANDING_ZONE"
+    }
+  ]
+}

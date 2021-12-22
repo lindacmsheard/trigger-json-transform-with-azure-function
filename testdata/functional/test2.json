@@ -1,0 +1,5 @@
+{
+    "metadata": "bar",
+    "namespace": "{\"collectionName\":\"collection2\"}",
+    "fullDocument":"{\"bar\": 15}"
+}
