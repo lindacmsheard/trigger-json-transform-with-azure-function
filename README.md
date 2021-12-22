@@ -22,6 +22,16 @@ store a new document containing a json object parsed from the contents of the `f
 The code also demonstrates the configuration of multiple output locations, so that files can we written in a differentiated manner depending on content within the separate `namespace` attribute of the original file. 
 
 
+```
+# in file /out/collection1/<filename>.json:
+    {
+        "foo": 15
+    }
+```
+
+> Note: We do not change the original filename. This implementation has limited capability for changing the original filename. There is a simple expression syntax for extracting parts of the filename where there are consistent patterns, and these parts can be assembled into a new filename pattern along with string constants. 
+
+
 ## QuickStart: Run Locally
 
 To test the function locally:
